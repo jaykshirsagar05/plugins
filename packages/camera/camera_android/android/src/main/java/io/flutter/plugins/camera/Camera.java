@@ -438,7 +438,7 @@ class Camera
             }
             captureSession = session;
 
-            Log.i(TAG, "Updating builder settings");
+            Log.i(TAG, "Updating JAYSSSSS builder settings");
             updateBuilderSettings(previewRequestBuilder);
 
             refreshPreviewCaptureSession(
