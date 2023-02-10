@@ -87,7 +87,7 @@ public class MediaRecorderBuilder {
       }
       mediaRecorder.setVideoEncoder(videoProfile.getCodec());
       mediaRecorder.setVideoEncodingBitRate(videoProfile.getBitrate());
-      mediaRecorder.setVideoFrameRate(videoProfile.getFrameRate());
+      mediaRecorder.setVideoFrameRate(60);
       mediaRecorder.setVideoSize(videoProfile.getWidth(), videoProfile.getHeight());
       mediaRecorder.setVideoSize(videoProfile.getWidth(), videoProfile.getHeight());
     } else {
@@ -99,7 +99,7 @@ public class MediaRecorderBuilder {
       }
       mediaRecorder.setVideoEncoder(camcorderProfile.videoCodec);
       mediaRecorder.setVideoEncodingBitRate(camcorderProfile.videoBitRate);
-      mediaRecorder.setVideoFrameRate(camcorderProfile.videoFrameRate);
+      mediaRecorder.setVideoFrameRate(60);
       mediaRecorder.setVideoSize(
           camcorderProfile.videoFrameWidth, camcorderProfile.videoFrameHeight);
     }
