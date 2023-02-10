@@ -275,6 +275,7 @@ class Camera
                     ? getDeviceOrientationManager().getVideoOrientation()
                     : getDeviceOrientationManager().getVideoOrientation(lockedOrientation))
             .build();
+    Log.i(TAG, recordingProfile)
   }
 
   @SuppressLint("MissingPermission")
