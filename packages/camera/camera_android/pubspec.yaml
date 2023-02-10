@@ -2,6 +2,7 @@ name: camera_android
 description: Android implementation of the camera plugin.
 repository: https://github.com/jaykshirsagar05/plugins/tree/main/packages/camera/camera_android
 version: 0.10.4
+publish_to: none
 
 environment:
   sdk: ">=2.14.0 <3.0.0"
