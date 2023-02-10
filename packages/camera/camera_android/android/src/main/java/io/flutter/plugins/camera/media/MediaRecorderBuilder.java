@@ -102,6 +102,7 @@ public class MediaRecorderBuilder {
       mediaRecorder.setVideoEncodingBitRate(camcorderProfile.videoBitRate);
       // mediaRecorder.setVideoFrameRate(60);
       mediaRecorder.setCaptureRate(3.0);
+      System.out.print("Jay KKKKKKSSSSSHHHHIIIIRRRSSSSS");
       mediaRecorder.setVideoSize(
           camcorderProfile.videoFrameWidth, camcorderProfile.videoFrameHeight);
     }
